@@ -23,6 +23,7 @@ bool FollowSquaresGame::OnUserUpdate(float fElapsedTime)
   return true;
 }
 
+/// Move each piece to its next location.
 void FollowSquaresGame::movePieces()
 {
   for (unsigned int i = 0; i < _squares.size(); i++)
